@@ -1,0 +1,12 @@
+Variable name,Format name,Variable label,Valid range,Value indicating missing data
+reviewerID,alphanumeric,ID of the reviewer,,missingid
+asin,numeric,ID of the product,,0
+reviewerName,,name of the reviewer,,undefined
+vote,,"people can upvote a review and this variable shows the number of upvotes ""helpful"" this review got",,-
+style,,"dictionary that shows the metadata of the product, e.g., ""Format"" is ""Hardcover""",,
+reviewText,,the review itself in the text format,,
+overall,float,the overall rating this product got,,NA
+summary,,summary of the review,,
+unixReviewTime,,time of the review in unix timestamp format,,
+reviewTime,,time of the review unformatted,,
+image,img,images that users post after they have received the product,,
